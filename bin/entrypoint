@@ -1,0 +1,21 @@
+#!/bin/bash
+BASEDIR=$(dirname "$0")
+
+echo ">>> Linting project code..."
+"$BASEDIR"/run_lint
+echo
+
+echo ">>> Running type check..."
+"$BASEDIR"/run_typecheck
+echo
+
+echo ">>> Running unit tests and integration tests..."
+"$BASEDIR"/run_tests
+echo
+
+echo ">>> Start program in interactive mode (you can input now)..."
+"$BASEDIR"/play
+echo
+
+echo ">>> Bye!"
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+BASEDIR=$(dirname "$0")/..
+python -m doctest "$BASEDIR"/project/main.py
+coverage run --source project -m unittest discover project "*_test.py"
+coverage report
+
