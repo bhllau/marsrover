@@ -52,7 +52,7 @@ This repository is a solution to the Mars Rover problem (described in
         >>> Running unit tests and integration tests...
         ..............
         ----------------------------------------------------------------------
-        Ran 14 tests in 0.004s
+        Ran 13 tests in 0.004s
 
         OK
         Name                         Stmts   Miss  Cover
@@ -108,7 +108,7 @@ This repository is a solution to the Mars Rover problem (described in
         $ ./bin/run_tests
         ..............
         ----------------------------------------------------------------------
-        Ran 14 tests in 0.001s
+        Ran 13 tests in 0.001s
 
         OK
 
