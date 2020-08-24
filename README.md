@@ -94,31 +94,31 @@ This repository is a solution to the Mars Rover problem (described in
 
    - To lint (for pretty and conforming codes):
 
-        $ ./bin/run_lint
-        --------------------------------------------------------------------
-        Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+            $ ./bin/run_lint
+            --------------------------------------------------------------------
+            Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 
    - To type check (types annotations):
 
-        $ ./bin/run_typecheck
-        Success: no issues found in 4 source files
+            $ ./bin/run_typecheck
+            Success: no issues found in 4 source files
 
    - To run unit tests:
 
-        $ ./bin/run_tests
-        ..............
-        ----------------------------------------------------------------------
-        Ran 13 tests in 0.001s
+            $ ./bin/run_tests
+            ..............
+            ----------------------------------------------------------------------
+            Ran 13 tests in 0.001s
 
-        OK
+            OK
 
    - To run the program (stdin/stdout):
 
-        $ ./bin/play
-        > 5 5
-        > 1 1 N M
-        < 1 2 N
-        > 2 2 S MM
-        < 2 0 S
-        (EOF)
+            $ ./bin/play
+            > 5 5
+            > 1 1 N M
+            < 1 2 N
+            > 2 2 S MM
+            < 2 0 S
+            (EOF)
 
