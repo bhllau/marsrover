@@ -48,8 +48,7 @@ class Rover():
         self._direction = CARDINALS.index(value)
 
     def __move(self, op: str) -> None:
-        """Move on a single operation.
-        """
+        """Move on a single operation."""
         if op == 'R':
             # spin 90 degree right
             self._direction = (self._direction + 1) % 4
